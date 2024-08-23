@@ -1,3 +1,19 @@
+
+
+This is a basic next project that shows a leaflet map on a next/react page. What we've done:
+- npx create-next-app@latest
+- removed the google font (because next template is garbage?)
+- navigate to application folder and install components: npm i leaflet react-leaflet
+- create 'components/map' folder
+- within that folder create index.js and map.js
+- map.js needs to import MapContainer and TileLayer and then put those components on the page
+- index.js needs to import map component as turn off server side rendering
+- on page.js add the Map component AND put "use client" at top (necessary??)
+- style the map so that it has a with and height
+- npm run dev
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
